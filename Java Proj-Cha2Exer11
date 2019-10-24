@@ -1,0 +1,22 @@
+public class Chap2Exer11 {
+    
+    public static final int PARTITION = 5;
+    
+    public static void main(String[] args) {
+
+    for (int i=1; i<=PARTITION; i++) {
+        for (int j=1; j<=PARTITION; j++){
+            System.out.print(" "); }
+            System.out.print("|");
+        }
+        System.out.println();
+        
+    for (int j=1; j<=PARTITION; j++) {
+        for (int k=1; k<=PARTITION; k++){
+            System.out.print(k); }
+            System.out.print("0");
+        }
+    
+   
+    }
+}
